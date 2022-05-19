@@ -1,7 +1,7 @@
 GPU_ID: '0' 
 model_restore: '' 
 
-log_dir: exp/logs/bmx-trees
+log_dir: exp/logs/stomach_logs
 dir_video: '../content/Implicit-Internal-Video-Inpainting/inputs/videos/stomach_images_56' 
 dir_mask: '../content/Implicit-Internal-Video-Inpainting/inputs/masks/mask'
 
