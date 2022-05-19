@@ -2,17 +2,17 @@ GPU_ID: '0'
 model_restore: '' 
 
 log_dir: exp/logs/bmx-trees
-dir_video: 'inputs/videos/bmx-trees' 
-dir_mask: 'inputs/masks/bmx-trees'
+dir_video: '../content/Implicit-Internal-Video-Inpainting/inputs/videos/stomach_images_56' 
+dir_mask: '../content/Implicit-Internal-Video-Inpainting/inputs/masks/mask'
 
 # training
-img_shapes: [320, 600]
+img_shapes: [488, 640]
 batch_size: 5
 lr: 0.0002
 
-max_iters: 50000
+max_iters: 30000
 max_epochs: 20000
-print_iters: 500
+print_iters: 50
 summary_iters: 2500
 model_iters: 10000
 
