@@ -9,7 +9,7 @@ from model.inpaint_model import RefineModel, BaseModel, StackModel
 
 
 if __name__ == "__main__":
-    FLAGS = Config('config/test.yml')
+    FLAGS = Config('../content/Implicit-Internal-Video-Inpainting/config/test.yml')
     os.environ["CUDA_VISIBLE_DEVICES"]= FLAGS.GPU_ID
     test_dir = FLAGS.test_dir  
     pathlib.Path(test_dir).mkdir(parents=True, exist_ok=True)
