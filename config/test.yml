@@ -1,12 +1,12 @@
 GPU_ID: '0' 
 model_restore: 'exp/logs/bmx-trees/checkpoint_50000' 
 
-test_dir: exp/results/bmx-trees
-dir_video: 'inputs/videos/bmx-trees' 
-dir_mask: 'inputs/masks/bmx-trees'
+test_dir: exp/results/stomach_results
+dir_video: '../content/Implicit-Internal-Video-Inpainting/inputs/videos/stomach_images_56' 
+dir_mask: '../content/Implicit-Internal-Video-Inpainting/inputs/masks/mask'
 
 
-img_shapes: [320, 600]
+img_shapes: [488, 640]
 coarse_only: False 
 use_refine: True 
 padding: 'SAME'
